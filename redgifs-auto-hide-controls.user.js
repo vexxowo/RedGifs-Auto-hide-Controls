@@ -17,7 +17,7 @@
 (function () {
   'use strict';
 
-  const HIDE_DELAY = 2000; //milliseconds
+  const HIDE_DELAY = 2000; // ms of stillness before hiding
 
   const style = document.createElement('style');
   style.textContent = `
