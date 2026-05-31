@@ -32,14 +32,14 @@ A userscript that automatically hides RedGifs player controls and the cursor whe
 At the top of the script, adjust `HIDE_DELAY` to control how long (in milliseconds) the controls stay visible after the last mouse movement before hiding again:
 
 ```js
-const HIDE_DELAY = 500; // 0.5 seconds
+const HIDE_DELAY = 2000; // 2 seconds
 ```
 
 | Value | Behaviour |
 |-------|-----------|
-| `500` | Default - Hides quickly — snappier feel |
-| `1000` | Balanced |
-| `2000` | Hides slowly — more relaxed |
+| `1000` | Hides quickly — snappier feel |
+| `2000` | Default - Balanced |
+| `3000` | Hides slowly — more relaxed |
 
 ---
 
