@@ -10,13 +10,6 @@ A userscript that automatically hides RedGifs player controls and the cursor whe
 - Hides the cursor when controls are hidden
 - Smoothly fades controls in and out on mouse movement
 - Applies inside Reddit embeds
-- Targets the following elements:
-  - `progressBar` — seek/progress bar
-  - `download-svg` — download button
-  - `viewButton` — view button
-  - `shareButton` — share button
-  - `gifQualityButton` — quality selector
-  - `FSButton` — fullscreen button
 
 ---
 
