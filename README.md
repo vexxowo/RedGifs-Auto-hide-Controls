@@ -1,6 +1,6 @@
 # RedGifs Auto-hide Controls
 
-A userscript that automatically hides RedGifs player controls and the cursor when the mouse is idle, restoring them on movement. Works both on redgifs.com directly and when RedGifs is embedded on Reddit.
+A userscript that automatically hides RedGifs player controls and the cursor when the mouse is idle, restoring them on movement. Works only where RedGifs is embedded.
 
 ---
 
@@ -9,7 +9,7 @@ A userscript that automatically hides RedGifs player controls and the cursor whe
 - Hides player controls after a configurable period of mouse inactivity
 - Hides the cursor when controls are hidden
 - Smoothly fades controls in and out on mouse movement
-- Applies inside Reddit embeds as well as on redgifs.com directly
+- Applies inside Reddit embeds
 - Targets the following elements:
   - `progressBar` — seek/progress bar
   - `download-svg` — download button
@@ -54,7 +54,7 @@ const HIDE_DELAY = 500; // 0.5 seconds
 
 | Platform | Supported |
 |----------|-----------|
-| redgifs.com (direct) | ✅ |
+| redgifs.com (direct) | ❌ |
 | Reddit (embedded) | ✅ |
 | Firefox + Violentmonkey | ✅ |
 | Firefox + Tampermonkey | ✅ |
