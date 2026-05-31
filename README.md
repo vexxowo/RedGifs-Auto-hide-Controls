@@ -27,7 +27,7 @@ A userscript that automatically hides RedGifs player controls and the cursor whe
    - [Tampermonkey](https://www.tampermonkey.net/)
 
 2. **Install the Script:**
-   - **[Click here to install RedGifs-Auto-hide-Controls]()**
+   - **[Click here to install RedGifs-Auto-hide-Controls](https://github.com/vexxowo/RedGifs-Auto-hide-Controls/raw/refs/heads/main/redgifs-auto-hide-controls.user.js)**
 
 3. **Confirm Installation:**
    - Your browser extension will open a new tab. Click **Install** to finish.
