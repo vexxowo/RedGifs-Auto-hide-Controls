@@ -17,7 +17,7 @@
 (function () {
   'use strict';
 
-  const HIDE_DELAY = 2000;
+  const HIDE_DELAY = 2000; //milliseconds
 
   const style = document.createElement('style');
   style.textContent = `
