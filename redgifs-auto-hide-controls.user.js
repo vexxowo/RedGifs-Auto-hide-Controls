@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         RedGifs Auto-hide Controls
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.5
 // @description  A userscript that automatically hides RedGifs player controls and the cursor when the mouse is idle, restoring them on movement.
 // @author       vexxowo
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=redgifs.com
@@ -23,6 +23,7 @@
   style.textContent = `
 	.logo,
 	.playerBottom,
+	.download-svg,
     .sidebar {
       opacity: 0 !important;
       transition: opacity 0.3s ease !important;
@@ -30,6 +31,7 @@
     }
 	body.rgf-active .logo,
 	body.rgf-active .playerBottom,
+	body.rgf-active .download-svg,
     body.rgf-active .sidebar {
       opacity: 1 !important;
       pointer-events: auto !important;
