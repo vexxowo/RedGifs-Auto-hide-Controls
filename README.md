@@ -59,8 +59,6 @@ const HIDE_DELAY = 2000; // 2 seconds
 ## Recommended scripts
 
 - [Redgifs Embed Tweaks (RET)](https://greasyfork.org/en/scripts/480214-redgifs-embed-tweaks-ret)
-- [RedGifs AutoHD](https://github.com/Invertex/RedGifs-AutoHD)
-- [REDgifs CPU% Saver](https://github.com/Raizuto/Tamper_Violentmonkey-Scripts/)
 
 ---
 
