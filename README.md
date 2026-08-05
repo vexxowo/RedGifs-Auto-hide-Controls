@@ -1,7 +1,6 @@
-# RedGifs Auto-hide Controls
+# RedGifs Embed Auto-hide Controls
 
-A userscript that automatically hides RedGifs player controls and the cursor when the mouse is idle, restoring them on movement. Works only where RedGifs is embedded.
-
+A userscript that automatically hides RedGifs embed player controls and the cursor when the mouse is idle, restoring them on movement.
 ---
 
 ## Features
@@ -9,7 +8,6 @@ A userscript that automatically hides RedGifs player controls and the cursor whe
 - Hides player controls after a configurable period of mouse inactivity
 - Hides the cursor when controls are hidden
 - Smoothly fades controls in and out on mouse movement
-- Applies inside Reddit embeds
 
 ---
 
@@ -19,8 +17,9 @@ A userscript that automatically hides RedGifs player controls and the cursor whe
    - [Violentmonkey](https://violentmonkey.github.io/) (recommended)
    - [Tampermonkey](https://www.tampermonkey.net/)
 
-2. **Install the Script:**
-   - **[Click here to install RedGifs-Auto-hide-Controls](https://raw.githubusercontent.com/vexxowo/RedGifs-Auto-hide-Controls/main/redgifs-auto-hide-controls.user.js)**
+2. **Click to install:**
+
+   [![Install Userscript](https://img.shields.io/badge/Install-Userscript-success?style=for-the-badge)](https://raw.githubusercontent.com/vexxowo/RedGifs-Auto-hide-Controls/main/redgifs-auto-hide-controls.user.js)
 
 3. **Confirm Installation:**
    - Your browser extension will open a new tab. Click **Install** to finish.
@@ -34,25 +33,6 @@ At the top of the script, adjust `HIDE_DELAY` to control how long (in millisecon
 ```js
 const HIDE_DELAY = 2000; // 2 seconds
 ```
-
-| Value | Behaviour |
-|-------|-----------|
-| `1000` | Hides quickly — snappier feel |
-| `2000` | Default - Balanced |
-| `3000` | Hides slowly — more relaxed |
-
----
-
-## Compatibility
-
-| Platform | Supported |
-|----------|-----------|
-| redgifs.com (direct) | ❌ |
-| Reddit (embedded) | ✅ |
-| Firefox + Violentmonkey | ✅ |
-| Firefox + Tampermonkey | ✅ |
-| Chrome + Violentmonkey | ✅ |
-| Chrome + Tampermonkey | ✅ |
 
 ---
 
