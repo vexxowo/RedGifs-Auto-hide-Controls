@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         RedGifs Auto-hide Controls
+// @name         RedGifs Embed Auto-hide Controls
 // @namespace    http://tampermonkey.net/
-// @version      1.5
-// @description  A userscript that automatically hides RedGifs player controls and the cursor when the mouse is idle, restoring them on movement.
+// @version      1.6
+// @description  A userscript that automatically hides RedGifs embed player controls and the cursor when the mouse is idle, restoring them on movement.
 // @author       vexxowo
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=redgifs.com
 // @match        https://www.redgifs.com/*
